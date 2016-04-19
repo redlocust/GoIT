@@ -1,0 +1,123 @@
+@font-face {
+  font-family: "futura_bookregular";
+  url("./futurabt-book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-width: 1400px;
+  color: #fff;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.main-header {
+  margin-top: 70px;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+}
+
+.logo h1{
+  font-family: "futura_bookregular", sans-serif;
+  font-size: 36px;
+  line-height: 30px;
+  color: #ee8129;
+  margin: 0;
+}
+
+.logo span {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #3070a8;
+}
+
+.main-navigation {
+  margin-top: 20px;
+  float: right;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.main-navigation a {
+  display: inline-block;
+  vertical-align: top;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  color: #989898;
+  padding: 0 18px 30px;
+}
+
+.main-navigation li:last-child a {
+  padding-right: 0;
+}
+.main-navigation .active a {
+  color: #3070a8;
+  border-bottom: #3070a8 solid 4px;
+}
+
+.about {
+  background: url(../images/about-bg.jpg) no-repeat center;
+  height: 585px;
+  text-align: center;
+}
+
+.about-text {
+  margin: 0;
+  font-family: "futura_bookregular", sans-serif;
+  font-weight: 300;
+  font-size: 36px;
+  padding-top: 150px;
+}
+
+.about-text span {
+  text-align: justify;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.about-notimportant-text {
+  font-family: Calibri, serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
+  font-style: italic;
+}
+
+.btn-default {
+  display: inline-block;
+  vertical-align: top;
+  width: 246px;
+  font-size: 16px;
+  padding: calc((58px - 16px)/2) 0;
+  border: solid 1px #fff;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 15px;
+}

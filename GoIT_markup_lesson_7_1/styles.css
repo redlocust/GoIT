@@ -1,0 +1,63 @@
+.container {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 4em;
+}
+
+p {
+  width: 300px;
+  display: inline-block;
+  text-align-last: justify;
+  color: transparent;
+  margin: 0 5px;
+  padding-bottom: 1px;
+  text-shadow: 0 0 5px #000;
+}
+
+.row1 {
+  font-size: 100%;
+  opacity: 0.9;
+}
+
+.row2 {
+  font-size: 90%;
+}
+
+.row3 {
+  font-size: 80%;
+}
+
+.row4 {
+  font-size: 70%;
+}
+
+.row5 {
+  font-size: 60%;
+}
+
+.row6 {
+  font-size: 50%;
+}
+
+.row7 {
+  font-size: 40%;
+}
+
+.row8 {
+  font-size: 30%;
+}
+
+.row9 {
+  font-size: 20%;
+}
+
+.row10 {
+  font-size: 10%;
+  box-shadow: 0 1px #ff0000;
+  padding-bottom: 35px;
+}
+
+.row11 {
+  font-size: 5%;
+
+}
