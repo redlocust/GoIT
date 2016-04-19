@@ -1,0 +1,144 @@
+/*base*/
+
+@font-face {
+  font-family: 'luzsans-lightluzsans-light';
+  src: url('../fonts/luzhplro-webfont.eot');
+  src: url('../fonts/luzhplro-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/luzhplro-webfont.woff2') format('woff2'),
+  url('../fonts/luzhplro-webfont.woff') format('woff'),
+  url('../fonts/luzhplro-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+body {
+  min-width: 1020px;
+  text-align: center;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/*services*/
+.services {
+  margin-bottom: 40px;
+}
+
+.services-title {
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 30px;
+  line-height: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 60px;
+  color: #41525c;
+  margin-bottom: 75px;
+}
+
+.services img {
+  margin-bottom: 30px;
+}
+
+.services-column-left {
+  width: 320px;
+  margin-right: 40px;
+  float: left;
+}
+
+.services-column-middle {
+  width: 315px;
+  margin-right: 40px;
+  float: left;
+}
+
+.services-column-right {
+  max-width: 300px;
+  float: right;
+}
+
+.service-title {
+  padding: 0;
+  font-family: "luzsans-lightluzsans-light", sans-serif;
+  font-size: 30px;
+  line-height: 25px;
+  color: #3070a8;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.service-text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 25px;
+  color: #999;
+}
+
+/*.middle*/
+.middle {
+  background: #1c1d1d url("../img/middle-bg.jpg") no-repeat center top;
+  min-width: 1020px;
+  height: 574px;
+  text-align: left;
+}
+
+.middle-content {
+  width: 650px;
+  padding-top: 50px;
+}
+
+.middle-content h3 {
+  font-family: "luzsans-lightluzsans-light", sans-serif;
+  font-size: 26px;
+  line-height: 45px;
+  font-weight: 700;
+  color: #ee8129;
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  margin-bottom: 10px;
+
+}
+
+.middle-content p {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  color: #fff;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.middle-list {
+  padding: 0;
+  color: #9d9d9d;
+  margin: 25px 0 0 40px;
+  list-style: none inside;
+}
+
+.middle-list li {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 15px;
+}
+
+.middle-list li:nth-child(even) {
+  color: #3070a8;
+}
+
+.middle-list li:before {
+  content: "\f111";
+  font-size: 10px;
+  font-family: 'FontAwesome', serif;
+  margin-left: -20px;
+  float: left;
+}

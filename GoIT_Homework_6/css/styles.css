@@ -1,0 +1,161 @@
+/*base-style*/
+
+body {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 960px;
+  padding: 10px 10px;
+  margin: 0 auto;
+}
+
+/*header*/
+
+.header-title {
+  margin: 60px 0;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.pricing-nonactive {
+  display: inline-block;
+  border: #e8eaec solid 1px;
+  border-radius: 5px;
+  width: 290px;
+  text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+.left-block {
+  left: 7px;
+}
+
+.right-block {
+  left: -7px;
+}
+
+.pricing-active {
+  display: inline-block;
+  border: #ec8136 solid 3px;
+  box-shadow: rgba(21, 117, 175, 1) 0 0 12px;
+  border-radius: 5px;
+  width: 290px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+
+}
+
+.pricing-title {
+  background-color: #37c2d3;
+  color: #fff;
+  font-size: 24px;
+  line-height: 60px;
+  font-weight: 700;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.pricing-title_active {
+  padding-top: 5px;
+}
+
+.bg-first-color {
+  background-color: #37c2d3;
+}
+
+.bg-second-color {
+  background-color: #ec8136;
+}
+
+.bg-third-color {
+  background-color: #1cb79a;
+}
+
+.pricing-content-name {
+  color: #3f4042;
+  line-height: 50px;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  /*margin-bottom: 10px;*/
+}
+
+.pricing-content-cost {
+  color: #3f4042;
+  line-height: 55px;
+  font-size: 72px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.pricing-content-cost:before {
+  content: "$";
+  vertical-align: 35px;
+  font-size: 25px;
+}
+
+.pricing-content-cost:after {
+  content: "Monthly";
+  vertical-align: -5px;
+  font-size: 15px;
+}
+
+.pricing-content-features-list {
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pricing-content-feature-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #888c94;
+  background-color: #eef5fc;
+  font-size: 15px;
+  line-height: 30px;
+  margin-bottom: 1px;
+  min-width: 257px;
+  text-align: left;
+}
+
+.pricing-content-feature-item:before {
+  content: url("../img/Shape.png");
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.pricing-content-feature-item:nth-child(even) {
+  background-color: #f5f5f6;
+}
+
+.pricing-submit {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #3371a6;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+  min-width: 250px;
+  border-radius: 5px;
+  box-shadow: #16436a 0 3px ;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.pricing-submit_active {
+  margin-bottom: 25px;
+  background-color: #ec8136;
+  box-shadow: #b1561b 0 3px ;
+}
+
+.pricing-submit:hover {
+  background-color: #3984bf;
+}
