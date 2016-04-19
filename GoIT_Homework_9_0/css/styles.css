@@ -1,0 +1,47 @@
+body {
+  padding: 50px;
+}
+
+.container {
+  width: 100%;
+  background: red;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+
+.left-column {
+  float: left;
+  width: 49%;
+}
+
+.right-column {
+  float: right;
+  width: 49%;
+}
+
+.cell-image {
+  float: left;
+  height: 100px;
+  width: 100px;
+}
+
+.cell-content {
+  float: left;
+  min-height: 85px;
+}
+
+.cell-title {
+  margin: 0;
+}
+
+.cell-text {
+}
+
+.cell {
+  overflow: hidden;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task3 Homework 2 GoIT</title>
+</head>
+<body>
+  <form action="/">
+    <label>Name<br/><input name="Name" type="text"></label><br>
+    <label for="email">Email</label><br>
+    <input type="email" id="email"><br>
+    <label>Sex<br>
+    <input type="radio" id="radio1" name="sex" checked><label for="radio1">Female</label>
+    <input type="radio" id="radio2" name="sex"><label for="radio2">Male</label><br>
+    <label>Current status<br>
+      <input type="checkbox" id="check1" name="status" checked><label for="check1">Student</label><br>
+      <input type="checkbox" id="check2" name="status"><label for="check2">Employed</label><br>
+      <input type="checkbox" id="check3" name="status"><label for="check3">Unemployed</label><br>
+    </label>
+    <br>
+    <label>Month and Year of Birth<br>
+      <select name="month" id="month">
+        <option value="January">Январь</option>
+        <option value="February">Февраль</option>
+        <option value="March">Март</option>
+      </select>
+      <select name="year" id="year">
+        <option value="1977">1977</option>
+        <option value="1986">1986</option>
+        <option value="2009">2009</option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label>Skills and Technologies<br>
+      <select name="month" id="month" size="10">
+        <optgroup label="Tech skills">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+        </optgroup>
+        <optgroup label="Soft skills">
+          <option value="Time">Time managment</option>
+          <option value="Proactivity">Proactivity</option>
+          <option value="Teamwork">Teamwork</option>
+          <option value="Leadership">Leadership</option>
+        </optgroup>
+      </select>
+    </label>
+    <br>
+    <br>
+    <label>Photo<br><input type="file"></label>
+    <label><br><br>Comments<br><textarea cols="40" rows="10"></textarea></label>
+    <br><input type="button" value="Save">
+  </form>
+</body>
+</html>
